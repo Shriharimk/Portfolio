@@ -1,0 +1,14 @@
+.side-nav{
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+}
+.main-content{
+    background-color: coral;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}

@@ -1,2 +1,13 @@
-Hello World!
-<button mat-button>Click Me</button>
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" style="background-color: lightblue;" mode="side">
+    Drawer
+  </mat-drawer>
+
+  <div class="main-content">
+    Main Content
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+  </div>
+
+</mat-drawer-container>
